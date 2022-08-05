@@ -3,7 +3,7 @@ import { BsTwitter, BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs"
 
 export const Profile = () => {
   return (
-    <div className="w-32 h-32 bg-white rounded-full p-1 border-4 border-profile mb-10">
+    <div className="w-36 h-36 bg-white rounded-full p-1 border-4 border-profile mb-10">
       <img src={profile} className="w-full h-full object-cover rounded-full grayscale" alt="profile" />
     </div>
   )
@@ -15,10 +15,10 @@ export const ProfileInformation = () => {
       <h1 className="text-title text-3xl font-medium mb-3">Puji Ragil</h1>
       <p className="text-subtitle text-base text-base mb-3">Frontend Engineer</p>
       <div className="flex text-subtitle justify-center items-center">
-        <BsGithub className="mr-6 cursor-pointer text-lg"/>
-        <BsTwitter className="mr-6 cursor-pointer text-lg"/>
-        <BsLinkedin className="mr-6 cursor-pointer text-lg"/>
-        <BsYoutube className="cursor-pointer text-lg"/>
+        <BsGithub className="mr-6 cursor-pointer text-lg hover:text-title duration-300 ease-in-out"/>
+        <BsTwitter className="mr-6 cursor-pointer text-lg hover:text-title duration-300 ease-in-out"/>
+        <BsLinkedin className="mr-6 cursor-pointer text-lg hover:text-title duration-300 ease-in-out"/>
+        <BsYoutube className="cursor-pointer text-lg hover:text-title duration-300 ease-in-out"/>
       </div>
     </div>
   )
