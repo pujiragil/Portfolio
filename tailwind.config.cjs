@@ -21,9 +21,9 @@ module.exports = {
       backgroundColor: {
         'dark': '#0C151D',
         'button': '#FFE071',
-        'buttonhov': '#ffe482',
+        'buttonhov': '#FFE998',
         'button2': '#171F26',
-        'button2hov': '#1b232a',
+        'button2hov': '#21272c',
         'button3': '#0C151D',
       }
     },
