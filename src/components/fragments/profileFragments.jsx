@@ -1,10 +1,10 @@
-import profile from '../../assets/profile.png'
+import profile from '../../assets/profile.jpg'
 import { BsTwitter, BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs"
 
 export const Profile = () => {
   return (
-    <div className="w-32 h-32 bg-white rounded-full p-2 border-4 border-profile mb-10">
-      <img src={profile} alt="profile" />
+    <div className="w-32 h-32 bg-white rounded-full p-1 border-4 border-profile mb-10">
+      <img src={profile} className="w-full h-full object-cover rounded-full grayscale" alt="profile" />
     </div>
   )
 }
