@@ -1,4 +1,5 @@
 import Card from "./Card"
+import Footer from "./Footer"
 import { ProfileButton, ProfileMenu } from "./fragments/profileButton"
 import { Profile, ProfileFact, ProfileInformation } from "./fragments/profileFragments"
 
@@ -15,6 +16,7 @@ const ProfileSection = () => {
           <ProfileButton />
           <ProfileMenu />
           <Card />
+          <Footer />
         </div>
       </div>
     </div>

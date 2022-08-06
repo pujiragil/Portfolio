@@ -3,8 +3,8 @@ import porto2 from '../assets/card2.png'
 
 const Card = () => {
   return (
-    <div className="flex flex-col lg:w-4/5 lg:flex-wrap lg:gap-4 lg:flex-row w-full">
-      <div className="flex flex-col lg:flex-row w-full gap-4">
+    <div className="flex flex-col lg:w-4/5 lg:flex-wrap gap-y-4 lg:flex-row w-full mb-20">
+      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1">
           <img className="w-full rounded-lg" src={porto1} alt="card" />
         </div>
@@ -12,7 +12,7 @@ const Card = () => {
           <img className="w-full rounded-lg" src={porto2} alt="card" />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row w-full gap-4">
+      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1 order-2">
           <img className="w-full rounded-lg" src={porto2} alt="card" />
         </div>
@@ -20,7 +20,7 @@ const Card = () => {
           <img className="w-full rounded-lg" src={porto1} alt="card" />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row w-full gap-4">
+      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1 order-2">
           <img className="w-full rounded-lg" src={porto2} alt="card" />
         </div>

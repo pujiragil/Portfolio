@@ -25,6 +25,9 @@ module.exports = {
         'button2': '#171F26',
         'button2hov': '#21272c',
         'button3': '#0C151D',
+      },
+      dropShadow: {
+        'yellow': '0 0 25px rgb(252, 215, 79)'
       }
     },
   },
