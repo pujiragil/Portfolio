@@ -4,9 +4,11 @@ import Footer from "./Footer"
 import { Dark } from "./fragments/dark"
 import { ProfileButton, ProfileMenu } from "./fragments/profileButton"
 import { Profile, ProfileFact, ProfileInformation } from "./fragments/profileFragments"
+import Skill from "./Skill"
 
 const ProfileSection = () => {
   const [dark, setDark] = useState(false)
+  const [active, setActive] = useState("portfolio")
 
   useEffect(() => {
     const root = document.getElementById("root")
@@ -21,6 +23,10 @@ const ProfileSection = () => {
     setDark(!dark)
   }
 
+  const replace = (e) => {
+    setActive(e.target.getAttribute("name"))
+  }
+
   return (
     <div className="bg-light dark:bg-dark">
       <div className="container mx-auto p-6 font-poppins min-h-screen">
@@ -31,9 +37,9 @@ const ProfileSection = () => {
             <ProfileInformation />
           </div>
           <ProfileFact />
-          <ProfileButton />
-          <ProfileMenu />
-          <Card />
+          <ProfileButton/>
+          <ProfileMenu replace={replace.bind(this)} active={active}/>
+          {active === "portfolio" ? <Card /> : <Skill />}
           <Footer />
         </div>
       </div>

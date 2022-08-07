@@ -9,11 +9,11 @@ export const ProfileButton = () => {
   )
 }
 
-export const ProfileMenu = () => {
+export const ProfileMenu = ({ replace, active }) => {
   return (
-    <div className="flex w-full lg:w-4/5 p-2 lg:p-3 bg-white dark:bg-button2 rounded-lg mb-10 text-sm md:text-lg font-medium">
-      <button className="bg-button3 dark:bg-dbutton3 text-button2 dark:hover:text-dtitle duration-300 ease-in-out dark:text-dsubtitle py-3 rounded-lg mr-4 w-full flex justify-center items-center">Portfolio</button>
-      <button className="bg-white dark:bg-button2 text-title dark:text-dsubtitle py-3 rounded-lg w-full">Skills</button>
+    <div className="flex w-full lg:w-9/12 p-2 lg:p-3 bg-white dark:bg-button2 gap-x-5 rounded-lg mb-10 text-sm md:text-lg font-medium">
+      <button onClick={replace} name="portfolio" className={`${active === "portfolio" ? "bg-button3 dark:bg-dbutton3 text-button2 dark:hover:text-dtitle duration-300 ease-in-out dark:text-dsubtitle" : "bg-white dark:bg-button2 text-title dark:text-dsubtitle"} hover:text-button2 py-3 rounded-lg w-full flex justify-center items-center`}>Portfolio</button>
+      <button onClick={replace} name="skill" className={`${active === "skill" ? "bg-button3 dark:bg-dbutton3 text-button2 dark:hover:text-dtitle duration-300 ease-in-out dark:text-dsubtitle" : "bg-white dark:bg-button2 text-title dark:text-dsubtitle"} hover:text-button2 py-3 rounded-lg w-full`}>Skills</button>
     </div>
   )
 }
