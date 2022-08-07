@@ -11,8 +11,8 @@ export const Profile = () => {
 
 export const ProfileInformation = () => {
   return (
-    <div className="flex justify-center items-center md:items-start flex-col text-center mb-10">
-      <h1 className="text-title dark:text-dtitle text-2xl font-medium mb-3">Puji Ragil Setyo</h1>
+    <div className="flex justify-center items-center md:items-start md:tracking-widest flex-col text-center mb-10">
+      <h1 className="text-title dark:text-dtitle text-2xl font-medium mb-3">Puji Ragil</h1>
       <p className="text-subtitle dark:text-dsubtitle tracking-wider text-base md:text-lg text-base mb-3">Frontend Engineer</p>
       <div className="flex text-subtitle w-full dark:text-dsubtitle justify-around md:justify-between items-center">
         <a href="https://github.com/pujiragil/" target="_blank" className="flex justify-center items-center"><BsGithub className="cursor-pointer text-xl hover:text-title dark:hover:text-dtitle duration-300 ease-in-out"/></a>

@@ -32,7 +32,7 @@ const ProfileSection = () => {
       <div className="container mx-auto p-6 font-poppins min-h-screen">
         <div className="flex flex-col justify-center items-center">
           <Dark dark={dark} toggle={toggle}/>
-          <div className="flex w-full md:w-3/5 justify-center items-center flex-col md:flex-row md:gap-x-8">
+          <div className="flex w-full md:w-3/5 justify-center items-center flex-col md:gap-x-8 md:flex-row">
             <Profile />
             <ProfileInformation />
           </div>
