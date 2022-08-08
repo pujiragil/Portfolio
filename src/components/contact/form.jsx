@@ -1,28 +1,8 @@
-import { useState, useEffect } from 'react'
 import { AiOutlineMail, AiOutlineUser, AiOutlineMessage } from 'react-icons/ai'
-import { Dark } from '../fragments/dark'
 
 const Form = () => {
-  const [dark, setDark] = useState(false)
-
-  useEffect(() => {
-    const root = document.getElementById("root")
-    if(dark) {
-      root.classList.add("dark")
-    } else {
-      root.classList.remove("dark")
-    }
-  }, [dark])
-
-  const toggle = () => {
-    setDark(!dark)
-  }
-
   return (
     <div className="flex flex-col bg-white dark:bg-button2 rounded-lg p-4 gap-y-6 mb-10 py-10">
-      <div className="flex flex-col justify-center items-center">
-        <Dark dark={dark} toggle={toggle} mb="mb-0"/>
-      </div>
       <h2 className="text-title dark:text-dtitle text-2xl">Hi there 👋</h2>
       <div className="flex dark:text-white border border-zinc-900 dark:border-white gap-x-2 justify-center items-center bg-white dark:bg-transparent rounded-lg p-2">
         <AiOutlineUser className="text-title dark:text-white"/>
