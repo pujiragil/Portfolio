@@ -7,7 +7,7 @@ export const Title = () => {
   return (
     <div className="flex flex-col">
       <h1 className="text-title dark:text-dtitle text-2xl mb-4">Contact Me</h1>
-      <p className="text-subtitle dark:text-dsubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio reiciendis impedit accusamus.</p>
+      <p className="text-subtitle dark:text-dsubtitle lg:w-4/5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio reiciendis impedit accusamus.</p>
     </div>
   )
 }
@@ -33,7 +33,7 @@ export const Contact = () => {
 
 export const Logo = () => {
   return (
-    <div className="flex justify-around text-subtitle dark:text-dtitle">
+    <div className="flex justify-around lg:justify-between lg:w-2/5 text-subtitle dark:text-dtitle">
       <div className="p-4 cursor-pointer rounded-full hover:bg-button duration-300 ease-in-out"><BsInstagram /></div>
       <div className="p-4 cursor-pointer rounded-full hover:bg-button duration-300 ease-in-out"><BsGithub /></div>
       <div className="p-4 cursor-pointer rounded-full hover:bg-button duration-300 ease-in-out"><BsLinkedin /></div>
