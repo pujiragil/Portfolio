@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Card from "./Card"
 import Footer from "./Footer"
 import { Dark } from "./fragments/dark"
@@ -6,19 +6,8 @@ import { ProfileButton, ProfileMenu } from "./fragments/profileButton"
 import { Profile, ProfileFact, ProfileInformation } from "./fragments/profileFragments"
 import Skill from "./Skill"
 
-const ProfileSection = () => {
-  const [dark, setDark] = useState(false)
+const ProfileSection = ({ dark, toggle }) => {
   const [active, setActive] = useState("portfolio")
-
-  useEffect(() => {
-    const root = document.getElementById("root")
-    root.classList.toggle("dark")
-  }, [dark])
-
-  const toggle = () => {
-    setDark(!dark)
-  }
-
   const replace = (e) => {
     setActive(e.target.getAttribute("name"))
   }

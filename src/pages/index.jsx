@@ -1,8 +1,8 @@
 import ProfileSection from "../components/Profile"
 
-const Index = () => {
+const Index = ({dark, toggle}) => {
   return (
-    <ProfileSection />
+    <ProfileSection dark={dark} toggle={toggle}/>
   )
 }
 
