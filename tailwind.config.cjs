@@ -22,7 +22,8 @@ module.exports = {
         'dfact': '#C3C7CB',
         'button': '#3D3D3D',
         'light': '#FDD64E',
-        'button2': '#19191B'
+        'button2': '#19191B',
+        'dcontact': '#FDD64E'
       },
       backgroundColor: {
         'light': '#E9EBEC',

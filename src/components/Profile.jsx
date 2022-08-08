@@ -31,7 +31,7 @@ const ProfileSection = () => {
     <div className="bg-light dark:bg-dark">
       <div className="container mx-auto p-6 font-poppins min-h-screen">
         <div className="flex flex-col justify-center items-center">
-          <Dark dark={dark} toggle={toggle}/>
+          <Dark dark={dark} toggle={toggle} mb="mb-10"/>
           <div className="flex w-full md:w-3/5 justify-center items-center flex-col md:gap-x-8 md:flex-row">
             <Profile />
             <ProfileInformation />
