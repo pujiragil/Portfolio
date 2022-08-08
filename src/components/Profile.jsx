@@ -12,11 +12,7 @@ const ProfileSection = () => {
 
   useEffect(() => {
     const root = document.getElementById("root")
-    if(dark) {
-      root.classList.add("dark")
-    } else {
-      root.classList.remove("dark")
-    }
+    root.classList.toggle("dark")
   }, [dark])
 
   const toggle = () => {
