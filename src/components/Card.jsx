@@ -1,7 +1,7 @@
 import porto1 from '../assets/card.png'
 import porto2 from '../assets/card2.png'
 import porto3 from '../assets/card3.png'
-import porto4 from '../assets/card3.png'
+import porto4 from '../assets/card4.png'
 
 const Card = () => {
   return (
