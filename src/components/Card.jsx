@@ -9,26 +9,36 @@ const Card = () => {
     <div className="flex flex-col lg:w-9/12 lg:flex-wrap gap-y-4 lg:flex-row w-full mb-20">
       <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1">
-          <img className="w-full rounded-lg" src={porto5} alt="card" />
+          <a href="https://mecode.vercel.app" target="_blank">
+            <img className="w-full rounded-lg" src={porto5} alt="card" />
+          </a>
         </div>
         <div className="lg:flex-1">
-          <img className="w-full rounded-lg" src={porto2} alt="card" />
+          <a href="https://rupia.vercel.app/" target="_blank">
+            <img className="w-full rounded-lg" src={porto2} alt="card" />
+          </a>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1 order-2">
-          <img className="w-full rounded-lg" src={porto3} alt="card" />
+          <a href="https://authentication-page-pujiragil.vercel.app/" target="_blank">
+            <img className="w-full rounded-lg" src={porto4} alt="card" />
+          </a>
         </div>
         <div className="lg:flex-1 order-1">
-          <img className="w-full rounded-lg" src={porto4} alt="card" />
+          <a href="https://pujiragil.github.io/ingfopc/" target="_blank">
+            <img className="w-full rounded-lg" src={porto3} alt="card" />
+          </a>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1 order-2">
-          <img className="w-full rounded-lg" src={porto5} alt="card" />
+          {/* <img className="w-full rounded-lg" src={porto5} alt="card" /> */}
         </div>
         <div className="lg:flex-1 order-1">
-          <img className="w-full rounded-lg" src={porto1} alt="card" />
+          <a href="https://hitech-pujiragil.vercel.app/" target="_blank">
+            <img className="w-full rounded-lg" src={porto1} alt="card" />
+          </a>
         </div>
       </div>
     </div>
