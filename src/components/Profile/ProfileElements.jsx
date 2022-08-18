@@ -12,7 +12,7 @@ export const ProfilePic = () => {
 export const ProfileDesc = () => {
   return (
     <div className="flex flex-col md:order-1 text-center justify-center items-center md:justify-start md:text-left md:items-start md:w-1/2 lg:w-1/2 px-6 md:p-0">
-      <h1 className="text-4xl lg:text-[64px] lg:leading-[70px] font-bold mb-5">Hi, I am Your Joko A Product Designer based in City.</h1>
+      <h1 className="text-4xl lg:text-[64px] lg:leading-[70px] font-bold mb-5">Hi, I am Joko A Product Designer based in City.</h1>
       <p className="text-desc lg:text-2xl lg:w-4/5 font-medium font-lg mb-12 md:mb-16">I help businesses and companies reach their goals by designing user-centric digital products & interactive experiences.</p>
       <ProfileButton />
     </div>
