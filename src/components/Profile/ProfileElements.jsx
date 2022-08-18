@@ -21,7 +21,7 @@ export const ProfileDesc = () => {
 
 export const ProfileButton = () => {
   return (
-    <button className="lg:w-[400px] md:w-9/12 flex gap-x-4 justify-center items-center bg-button text-lg font-medium text-white py-4 px-6 rounded border-none outline-none">
+    <button className="w-4/5 lg:w-[400px] md:w-9/12 flex gap-x-4 justify-center items-center bg-button text-lg font-medium text-white py-4 px-6 rounded border-none outline-none">
       <AiOutlineMail className="font-bold text-xl" />
       <span>joko@gmail.com</span>
     </button>
