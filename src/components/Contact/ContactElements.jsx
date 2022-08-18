@@ -6,6 +6,6 @@ export const ContactTitle = ({children}) => {
 
 export const ContactDesc = ({children}) => {
   return (
-    <p className="text-desc text-lg font-medium mb-10">{children}</p>
+    <p className="text-desc text-lg font-medium mb-10 md:w-3/5 lg:w-5/12">{children}</p>
   )
 }

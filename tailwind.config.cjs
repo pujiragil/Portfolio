@@ -18,6 +18,9 @@ module.exports = {
       colors: {
         'primary': '#DEDEDE',
         'desc': '#959595'
+      },
+      borderColor: {
+        'footer': '#696969'
       }
     },
   },
