@@ -3,6 +3,7 @@ import porto2 from '../assets/card2.png'
 import porto3 from '../assets/card3.png'
 import porto4 from '../assets/card4.png'
 import porto5 from '../assets/card5.png'
+import porto6 from '../assets/card6.png'
 
 const Card = () => {
   return (
@@ -33,7 +34,9 @@ const Card = () => {
       </div>
       <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
         <div className="lg:flex-1 order-2">
-          {/* <img className="w-full rounded-lg" src={porto5} alt="card" /> */}
+          <a href="https://github.com/pujiragil/Portfolio/tree/main" target="_blank">
+            <img className="w-full rounded-lg" src={porto6} alt="card" />
+          </a>
         </div>
         <div className="lg:flex-1 order-1">
           <a href="https://hitech-pujiragil.vercel.app/" target="_blank">
